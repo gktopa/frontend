@@ -1,7 +1,8 @@
 // Посилання на апі
+const baseUrlApi = 'https://backend-zeta-topaz-88.vercel.app';
 export const apiUrl = {
-    tasks: '/api/tasks',
-    tasksDone: '/api/tasks/done',
+    tasks: baseUrlApi + '/tasks',
+    tasksDone: baseUrlApi + '/tasks/done',
 };
 
 

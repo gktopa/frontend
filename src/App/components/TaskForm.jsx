@@ -6,7 +6,6 @@ import { Link, useNavigate } from "react-router-dom";
 
 export default function TaskForm() {
     const { tasks, setTasks } = useContext(TasksContextData)
-    const { user } = useContext(TasksContextData)
 
     const navigate = useNavigate();
 
